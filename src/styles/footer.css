@@ -1,0 +1,50 @@
+.card-category, .card-recomended {
+  border-radius: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 5px 5px;
+}
+
+.card-title.h5{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 425px;
+}
+
+.hrfooter {
+  border: 3px solid black;
+}
+
+.footer.col-md-4, .copyt{
+  font-size: 20px;
+  font-weight: 400;
+  color: #C90F08;
+}
+
+.home, .about, .contact, .copy{
+  color: black
+}
+
+[role=tab]{
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: black !important;
+}
+
+.comic{
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.comic:hover{
+  color: brown;
+}

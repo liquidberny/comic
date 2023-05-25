@@ -1,0 +1,31 @@
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #C90F08;
+  text-align: center;
+}
+
+.hrcards {
+  border: 3px solid black;
+}
+
+.g-4 {
+  width: 100%;
+  height: 100%;
+}
+
+.cardtitle{
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  text-align: start;
+}
+
+.imagecard{
+  width: 100%;
+  height: 350px;
+}
+
+.homecard{
+  border: 3px solid black;
+}

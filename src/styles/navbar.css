@@ -1,0 +1,63 @@
+.navbar {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.dropdown-item{
+  font-size: 20px;
+}
+
+.boton.btn.btn-primary {
+  width: 125px;
+  position:absolute;
+  right:0;
+  appearance: none;
+  background-color: brown;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.boton.btn.btn-primary:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.boton.btn.btn-primary:hover {
+  background-color: rgb(165, 42, 42);
+}
+
+.boton.btn.btn-primary:focus {
+  box-shadow: rgb(165, 42, 42) 0 0 0 3px;
+  outline: none;
+}
+
+.boton.btn.btn-primary:disabled {
+  background-color: brown;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.boton.btn.btn-primary:active {
+  background-color: brown;
+  box-shadow: rgb(165, 42, 42) 0 1px 0 inset;
+}
